@@ -79,7 +79,7 @@ void processSoundex(const char *name, char *soundex, int *sIndex, int len) {
 /* Function to generate the Soundex code */
 void generateSoundex(const char *name, char *soundex) {
     int len = strlen(name);
-    int sIndex = 0;  
+    int sIndex = 0;
  
     initializeSoundex(name, soundex, &sIndex);  
  
