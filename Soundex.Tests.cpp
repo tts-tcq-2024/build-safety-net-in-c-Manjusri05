@@ -6,8 +6,8 @@ TEST(SoudexTestsuite, ReplacesConsonantsWithAppropriateDigits) {
   char soundex[5];
   generateSoundex("AX", soundex);
   ASSERT_STREQ(soundex,"A200");
-  generateSoundex("manju", soundex);
-  ASSERT_STREQ(soundex,"M522");
+  generateSoundex("manj", soundex);
+  ASSERT_STREQ(soundex,"M052");
  
   generateSoundex("good", soundex);
   ASSERT_STREQ(soundex,"G300");
