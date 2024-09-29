@@ -1,0 +1,9 @@
+TC ,Description,Input,Expected Output
+1,To check zero padding,AX,A200
+2,To check if all consonants in the input string are replaced with their corresponding soundex encoding,gokul,G240
+3,To check If two adjacent characters encode to the same number are considered as one ,manju,G300
+4,Vowels removal,hwyaeiou,H000
+5,To check if all consonants in the input string are replaced with their corresponding soundex encoding,qwertyuiop,Q631
+6,To check if all consonants in the input string are replaced with their corresponding soundex encoding,abcde,A123
+7,Drop repeated adjacent encodings   ,dessert,D263
+8,To return zero if there are numbers other that the starting digit,63619156,6000
